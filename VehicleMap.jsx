@@ -14,7 +14,7 @@ const VehicleMap = ({ data }) => {
   const [mapCenter, setMapCenter] = useState(defaultCenter);
 
   const { isLoaded } = useJsApiLoader({
-    googleMapsApiKey: "AIzaSyCeU4TOPlhsJ0GqdgpKia5jm5Z0DdY6mCk"
+    googleMapsApiKey: "your api key"
   });
 
   useEffect(() => {
